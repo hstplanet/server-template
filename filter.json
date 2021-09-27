@@ -1,0 +1,30 @@
+[
+    {
+        "name" : "Hayvanlar",
+        "filtercontent" : [90 , 100 , 112 , 97 ,  92 , 91 , 93 , 125 , 95]
+    },
+    {
+        "name" : "Yem",
+        "filtercontent" : [96 , 98 , 99 , 90]
+    },
+    {
+        "name" : "Tarım Makinaları",
+        "filtercontent" : [101 , 102 , 103 , 104 , 105 , 106 , 135 , 108 , 109 , 124 , 96 , 111 , 113]
+    },
+    {
+        "name" : "Araçlar",
+        "filtercontent" : [114 , 115 , 116 , 117 , 118 , 119 , 120 , 121 , 122 , 123 , 124 , 111]
+    },
+    {
+        "name" : "Pet",
+        "filtercontent" : [125 , 90 , 95 , 112 , 91]
+    },
+    {
+        "name" : "Emlak",
+        "filtercontent" : [133 , 107 , 127 , 128 , 129 , 130 , 131 , 109 , 132 , 133 , 134 , 135]
+    },
+    {
+        "name" : "Kanatlı Grubu",
+        "filtercontent" : [95 , 91 , 112 , 125 , 93 , 90]
+    }
+]

@@ -1,0 +1,449 @@
+[
+    {
+        "between": false,
+        "index": -1,
+        "key": "genus",
+        "name": "Cinsi",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "parturition",
+        "name": "Doğum Sayısı",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "disease",
+        "name": "Hastalıkları",
+        "require": false,
+        "table": true,
+        "selectOPS" : [],
+        "type": "json"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "isparturition",
+        "name": "Gebelik Durumu",
+        "require": false,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "yield",
+        "name": "Günlük Verim",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "weight",
+        "name": "Canlı Ağırlık",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "age",
+        "name": "Yaşı",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    /* Yem */
+    {
+        "between": false,
+        "index": -1,
+        "key": "statu",
+        "name": "Durum",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "band",
+        "name": "Bant",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "ladle",
+        "name": "Kepçe Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    /* Tarım Makinaları */
+    {
+        "between": false,
+        "index": -1,
+        "key": "pump",
+        "name": "Pompa Türü",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "headcount",
+        "name": "Sağım Başlık Sayısı",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "worker",
+        "name": "Çalışma Şekli",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "canister",
+        "name": "Güğüm Sayısı",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "producttype",
+        "name": "Ürün Tipi",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "brand",
+        "name": "Marka",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "swap",
+        "name": "Takas Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "liter",
+        "name": "Litre",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "fromwho",
+        "name": "Kimden",
+        "require": true,
+        "table": true,
+        "selectOPS" : [
+            "Sahibinden" , "Emlak Ofisinden" , "Bankadan" , "İşletmeden"
+        ],
+        "type": "select"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "worktime",
+        "name": "Çalışma Zamanı",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "rubberstatu",
+        "name": "Lastik Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : ["Sıfır" , "Yakın Zamanda Değişti" , "Bir Süre Kullanılır" , "Kötü Durumda"],
+        "type": "select"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "canistervolume",
+        "name": "Güğüm Hacmi",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    /* Araçlar */
+    {
+        "between": false,
+        "index": -1,
+        "key": "cabin",
+        "name": "Kabin",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "frontloader",
+        "name": "Ön Yükleyici",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": true,
+        "index": -1,
+        "key": "km",
+        "name": "KM",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": true,
+        "index": -1,
+        "key": "enginepower",
+        "name": "Motor Gücü",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "type",
+        "name": "Tipi",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "crashstatu",
+        "name": "Hasar Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "visa",
+        "name": "Vize Tarihi",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "year",
+        "name": "Yıl",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "model",
+        "name": "Model",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "string"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "pulltype",
+        "name": "Çekiş Tipi",
+        "require": true,
+        "table": true,
+        "selectOPS" : ["Önden" , "Arkadan" , "4 Çeker"],
+        "type": "select"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "worktime",
+        "name": "Çalışma Saati",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    /* Pet */
+    {
+        "between": false,
+        "index": -1,
+        "key": "lifeweight",
+        "name": "Canlı Ağarlığı (KG)",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    /* Emlak */
+    {
+        "between": false,
+        "index": -1,
+        "key": "waystatu",
+        "name": "Yol Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "ownershipstatu",
+        "name": "Mülkiyet Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : ["Satılık" , "Kiralık"],
+        "type": "select"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "waterstatu",
+        "name": "Su Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "area",
+        "name": "M2",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "creditstatu",
+        "name": "Kredi Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "areaprice",
+        "name": "M2 Fiyatı",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "number"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "reconstructionstatu",
+        "name": "İmar Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "buildstatu",
+        "name": "Yapı Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "electricstatu",
+        "name": "Elektrik Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : [],
+        "type": "boolean"
+    },
+    {
+        "between": false,
+        "index": -1,
+        "key": "deed",
+        "name": "Tapu Durumu",
+        "require": true,
+        "table": true,
+        "selectOPS" : ["Hisseli Tapu" , "Müstakil Parsel" , "Orman Arazisi" , "Vakıf Arazisi"],
+        "type": "select"
+    }
+]

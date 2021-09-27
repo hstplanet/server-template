@@ -1,0 +1,19 @@
+<% /* Note: This is injected into `views/layouts/layout-email.ejs` */ %>
+    <p><span
+            style='color: rgb(0, 0, 0); font-family: Roboto, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>Firmamıza
+            (<%= customer %>) Ödemeniz bulunmaktadır. Vadesi gelmiş faturalarınızın detaylarını aşağıda
+                bulabilirsiniz.</span>&nbsp;</p>
+    <p>
+        <%= createDate %> düzenlenme tarihli, <%= otherDate %> vade tarihli faturanızın <%= total %> TRL bakiyesi
+                    bulunmaktadır.
+    </p>
+    <p>İyi çalışmalar,</p>
+    <p>
+        <%= fullName %>
+    </p>
+    <p>
+        <span
+            style='color: rgb(33, 150, 243); font-family: Roboto, -apple-system, "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;'>
+            Faturayı Müşteri Ekranı'ndan incelemek için tıklayın.
+        </span>
+    </p>
